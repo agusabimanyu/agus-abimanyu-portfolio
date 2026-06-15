@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agus Abimanyu Diputra | Future Tax Consultant</title>
+<meta name="description" content="Accounting Student | Aspiring Tax Consultant">
+<style>
+:root{
+--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#64748b;
+--primary:#0f172a;--accent:#10b981;--border:#e2e8f0;
+}
+.dark{
+--bg:#020617;--card:#0f172a;--text:#f8fafc;--muted:#94a3b8;--border:#1e293b;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Segoe UI,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+.progress{position:fixed;top:0;left:0;height:4px;background:var(--accent);width:0;z-index:9999}
+header{position:sticky;top:0;background:rgba(255,255,255,.85);backdrop-filter:blur(12px);padding:18px 8%;display:flex;justify-content:space-between;align-items:center;z-index:999;border-bottom:1px solid var(--border)}
+.dark header{background:rgba(2,6,23,.85)}
+nav a{text-decoration:none;color:var(--text);margin:0 12px;font-weight:600}
+.container{padding:90px 8%}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:60px;align-items:center}
+.hero h1{font-size:3.4rem;line-height:1.1}
+.hero .tag{color:var(--accent);font-weight:700}
+.hero img{width:100%;max-width:380px;border-radius:28px;box-shadow:0 25px 60px rgba(0,0,0,.18)}
+.card{background:var(--card);border:1px solid var(--border);padding:24px;border-radius:22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:25px}
+.stat{text-align:center;background:var(--card);border:1px solid var(--border);padding:18px;border-radius:18px}
+.btn{display:inline-block;padding:14px 24px;border-radius:12px;text-decoration:none;font-weight:700;margin-right:10px}
+.primary{background:var(--accent);color:#fff}
+.secondary{border:1px solid var(--border);color:var(--text)}
+.section-title{font-size:2rem;margin-bottom:25px}
+.timeline{border-left:3px solid var(--accent);padding-left:25px}
+.timeline-item{margin-bottom:28px;position:relative}
+.timeline-item:before{content:'';width:14px;height:14px;background:var(--accent);border-radius:50%;position:absolute;left:-33px;top:8px}
+.highlight{background:linear-gradient(135deg,var(--primary),#1e293b);color:#fff}
+.roadmap .card{border-left:4px solid var(--accent)}
+footer{text-align:center;padding:40px;color:var(--muted)}
+.reveal{opacity:0;transform:translateY(30px);transition:.8s}
+.reveal.show{opacity:1;transform:none}
+#top{position:fixed;right:20px;bottom:20px;border:none;background:var(--accent);color:#fff;padding:14px;border-radius:50%}
+.toggle{cursor:pointer}
+@media(max-width:900px){
+.hero{grid-template-columns:1fr}
+.hero h1{font-size:2.3rem}
+.stats{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+
+<header>
+<h3>AGUS ABIMANYU DIPUTRA</h3>
+<nav>
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#learning">Journey</a>
+<a href="#contact">Contact</a>
+<span class="toggle" onclick="document.body.classList.toggle('dark')">🌙</span>
+</nav>
+</header>
+
+<section class="container hero reveal">
+<div>
+<p class="tag">ACCOUNTING STUDENT • FUTURE TAX CONSULTANT</p>
+<h1>Building Expertise in Indonesian Taxation</h1>
+<p>Mahasiswa Akuntansi Universitas Udayana yang berfokus pada pengembangan kompetensi perpajakan Indonesia melalui pembelajaran akademik, pelatihan profesional, dan pengembangan diri berkelanjutan.</p>
+<br>
+<a href="#" class="btn primary">Download CV</a>
+<a href="#contact" class="btn secondary">Contact Me</a>
+
+<div class="stats">
+<div class="stat"><h3>4</h3><small>Semester</small></div>
+<div class="stat"><h3>3.78</h3><small>IPS</small></div>
+<div class="stat"><h3>A</h3><small>Perpajakan I</small></div>
+<div class="stat"><h3>5+</h3><small>Tax Courses</small></div>
+</div>
+</div>
+
+<div style="text-align:center">
+<img src="profile.jpg" alt="Agus">
+</div>
+</section>
+
+<section class="container reveal">
+<div class="card highlight">
+<h2>Recruiter Highlights</h2>
+<br>
+✅ Accounting Student – Universitas Udayana<br>
+✅ IPS Semester 3: 3.78<br>
+✅ Nilai A pada Mata Kuliah Perpajakan I<br>
+✅ 5+ Tax Training Programs Completed<br>
+✅ Familiar dengan PPh 21, 23, dan 25<br>
+✅ Memahami dasar Coretax DJP<br>
+✅ Berorientasi pada karier Konsultan Pajak
+</div>
+</section>
+
+<section id="about" class="container reveal">
+<h2 class="section-title">About Me</h2>
+<div class="card">
+Saya adalah mahasiswa S1 Akuntansi Universitas Udayana yang memiliki minat kuat pada bidang perpajakan Indonesia. Melalui kombinasi pembelajaran akademik dan pelatihan profesional, saya terus mengembangkan pemahaman mengenai administrasi perpajakan, pelaporan pajak, serta ketentuan PPh Pasal 21, 23, dan 25. Saya memiliki komitmen untuk terus belajar, meningkatkan kompetensi teknis, dan membangun karier sebagai profesional perpajakan yang menjunjung integritas, ketelitian, serta kepatuhan terhadap regulasi perpajakan.
+</div>
+</section>
+
+<section id="education" class="container reveal">
+<h2 class="section-title">Education</h2>
+<div class="timeline">
+<div class="timeline-item">
+<h3>Universitas Udayana (2024 – Sekarang)</h3>
+<p>S1 Akuntansi • IPS Semester 3: 3.78 • Perpajakan I: A</p>
+</div>
+</div>
+</section>
+
+<section id="skills" class="container reveal">
+<h2 class="section-title">Tax Competencies</h2>
+<div class="grid">
+<div class="card"><h3>Taxation</h3><p>PPh 21, PPh 23, PPh 25, Administrasi Perpajakan, Pelaporan Pajak</p></div>
+<div class="card"><h3>Technical Skills</h3><p>Coretax DJP (Dasar), Microsoft Excel, Akuntansi Dasar</p></div>
+<div class="card"><h3>Languages</h3><p>Bahasa Indonesia, English (Conversational)</p></div>
+</div>
+</section>
+
+<section id="learning" class="container reveal">
+<h2 class="section-title">Tax Learning Journey</h2>
+<div class="timeline">
+<div class="timeline-item"><strong>Udemy (Bale Training)</strong><br>Praktek Lengkap Perhitungan Pajak Penghasilan Perusahaan</div>
+<div class="timeline-item"><strong>Udemy (Attax Indonesia)</strong><br>Praktik Perpajakan untuk Orang Pribadi</div>
+<div class="timeline-item"><strong>Udemy</strong><br>Mari Kenali Pajak bagi Freelancer di Indonesia</div>
+<div class="timeline-item"><strong>Bina Nusantara University</strong><br>Pajak Penghasilan Pasal 21 di Indonesia</div>
+<div class="timeline-item"><strong>Bina Nusantara University</strong><br>Perpajakan untuk UMKM di Indonesia</div>
+</div>
+</section>
+
+<section class="container reveal">
+<h2 class="section-title">Organizational Experience</h2>
+<div class="grid">
+<div class="card"><h3>Ambrium</h3><p>Mengelola kebutuhan logistik, memastikan ketersediaan perlengkapan, dan mendukung kelancaran operasional acara.</p></div>
+<div class="card"><h3>Pilmapres</h3><p>Berkoordinasi dalam pengadaan serta distribusi perlengkapan kegiatan secara efektif dan tepat waktu.</p></div>
+<div class="card"><h3>JUMDEK</h3><p>Mendukung pelaksanaan kegiatan fakultas melalui pengelolaan perlengkapan dan koordinasi operasional.</p></div>
+</div>
+</section>
+
+<section class="container roadmap reveal">
+<h2 class="section-title">Future Development Roadmap</h2>
+<div class="grid">
+<div class="card">Brevet Pajak A</div>
+<div class="card">Brevet Pajak B</div>
+<div class="card">Advanced Microsoft Excel</div>
+<div class="card">Tax Compliance</div>
+<div class="card">Tax Planning</div>
+</div>
+</section>
+
+<section class="container reveal">
+<h2 class="section-title">Career Objective</h2>
+<div class="card">
+Membangun karier profesional di bidang perpajakan melalui pembelajaran berkelanjutan, pengembangan kompetensi teknis, serta penerapan standar profesional yang tinggi. Saya bercita-cita berkontribusi dalam membantu wajib pajak memenuhi kewajibannya secara tepat, akurat, dan sesuai ketentuan perpajakan yang berlaku.
+</div>
+</section>
+
+<section id="contact" class="container reveal">
+<h2 class="section-title">Contact</h2>
+<div class="grid">
+<div class="card">📧 abi.agus10@gmail.com</div>
+<div class="card">📱 088219577398</div>
+<div class="card">📍 Denpasar, Bali</div>
+<div class="card">🔗 LinkedIn (Tambahkan Link Anda)</div>
+</div>
+</section>
+
+<footer>
+© 2026 Agus Abimanyu Diputra • Future Tax Consultant
+</footer>
+
+<button id="top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+const obs=new IntersectionObserver(entries=>{
+entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')})
+});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+window.addEventListener('scroll',()=>{
+const h=document.documentElement;
+const sc=(h.scrollTop)/(h.scrollHeight-h.clientHeight)*100;
+document.getElementById('progress').style.width=sc+'%';
+});
+</script>
+</body>
+</html>
